@@ -461,6 +461,7 @@ TEXT1 < TEXT2. This function makes no-time items in front of timed-items."
    :color (or color cfw:org-face-agenda-item-foreground-color)
    :data 'cfw:org-schedule-period-to-calendar))
 
+;;;###autoload
 (defun cfw:open-org-calendar ()
   "Open an org schedule calendar in the new buffer."
   (interactive)
